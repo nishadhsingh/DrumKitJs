@@ -1,0 +1,1 @@
+This is a exercise from wesbos's #javascript30 challenge done as a part of The Odin Project.
