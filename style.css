@@ -4,13 +4,16 @@ html {
   background-attachment: fixed;
   font-size: 1.75vw;
 }
+
 @media (min-width: 800px) {
   html {
-    font-size: 0.5vw; /*above 800px */
+    font-size: 0.5vw;
+    /*above 800px */
   }
 }
 
-body,html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -23,7 +26,7 @@ body,html {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  
+
 }
 
 .key {
@@ -36,8 +39,9 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 .5rem black;
+  font-family: serif;
 }
 
 .playing {
@@ -56,4 +60,14 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.button {
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
 }
